@@ -33,4 +33,13 @@ const NSUInteger MAILTO_INDEX = 7;
     [_email_address setStringValue:[url substringFromIndex:MAILTO_INDEX]];
 }
 
+- (IBAction)copyEmailToClipboard:(id)sender
+{
+    NSPasteboard *pasteboard = [NSPasteboard generalPasteboard];
+    [pasteboard clearContents];
+    [pasteboard writeObjects:
+        [NSArray arrayWithObject:
+            [_email_address stringValue]]];
+}
+
 @end

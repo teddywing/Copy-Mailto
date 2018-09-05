@@ -15,5 +15,6 @@
 
 - (void)handleURLEvent:(NSAppleEventDescriptor *)event
     withReplyEvent: (NSAppleEventDescriptor *)replyEvent;
+- (IBAction)copyEmailToClipboard:(id)sender;
 
 @end
