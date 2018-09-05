@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+const NSUInteger MAILTO_INDEX = 7;
+
 @implementation AppDelegate
 
 - (void)applicationWillFinishLaunching:(NSNotification *)aNotification {
@@ -28,7 +30,7 @@
 {
     NSString *url = [[event paramDescriptorForKeyword:keyDirectObject]
         stringValue];
-    NSLog(@"%@", url);
+    [_email_address setStringValue:[url substringFromIndex:MAILTO_INDEX]];
 }
 
 @end

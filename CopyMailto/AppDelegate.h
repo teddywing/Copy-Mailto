@@ -10,6 +10,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     IBOutlet NSWindow *_window;
+    IBOutlet NSTextField *_email_address;
 }
 
 - (void)handleURLEvent:(NSAppleEventDescriptor *)event
