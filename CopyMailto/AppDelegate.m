@@ -14,8 +14,8 @@
     [[NSAppleEventManager sharedAppleEventManager]
         setEventHandler:self
         andSelector:@selector(handleURLEvent:withReplyEvent:)
-        forEventClass:kInternetLocationMail
-        andEventID:kAEOpenApplication];
+        forEventClass:kInternetEventClass
+        andEventID:kAEGetURL];
 }
 
 
