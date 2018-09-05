@@ -23,7 +23,6 @@
 		D1F1710021402BB200BD08A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D1F1710221402BB300BD08A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F1710321402BB300BD08A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1F1710521402BB400BD08A0 /* Copy Mailto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Copy Mailto.entitlements"; sourceTree = "<group>"; };
 		D1F1710B21403F7B00BD08A0 /* DefaultURLHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultURLHandler.h; sourceTree = "<group>"; };
 		D1F1710C21403F7B00BD08A0 /* DefaultURLHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultURLHandler.m; sourceTree = "<group>"; };
 		D1F1710E214071D600BD08A0 /* QuitButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuitButton.h; sourceTree = "<group>"; };
@@ -70,7 +69,6 @@
 				D1F1710B21403F7B00BD08A0 /* DefaultURLHandler.h */,
 				D1F1710C21403F7B00BD08A0 /* DefaultURLHandler.m */,
 				D1F1710321402BB300BD08A0 /* main.m */,
-				D1F1710521402BB400BD08A0 /* Copy Mailto.entitlements */,
 			);
 			path = "Copy Mailto";
 			sourceTree = "<group>";
