@@ -20,11 +20,6 @@ const NSUInteger MAILTO_INDEX = 7;
         andEventID:kAEGetURL];
 }
 
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
-}
-
 - (void)handleURLEvent:(NSAppleEventDescriptor *)event
     withReplyEvent: (NSAppleEventDescriptor *)replyEvent
 {
