@@ -107,19 +107,13 @@ DQ
                             <action selector="copyEmailToClipboard:" target="Voe-Tx-rLC" id="uX1-7A-IwJ"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" misplaced="YES" id="dF9-KQ-ymU">
+                    <button verticalHuggingPriority="750" misplaced="YES" id="dF9-KQ-ymU" customClass="QuitButton">
                         <rect key="frame" x="328" y="13" width="66" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                         <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aJz-qw-lxS">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
-                            <string key="keyEquivalent" base64-UTF8="YES">
-Gw
-</string>
                         </buttonCell>
-                        <connections>
-                            <action selector="terminate:" target="-1" id="M3t-iK-CjQ"/>
-                        </connections>
                     </button>
                 </subviews>
             </view>
