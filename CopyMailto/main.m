@@ -11,6 +11,9 @@
 #import "DefaultURLHandler.h"
 
 int main(int argc, const char * argv[]) {
-    [DefaultURLHandler saveDefaultURLHandler];
+    if (argc == 2 && strcmp(argv[1], "--set-url-handler") == 0) {
+        return [DefaultURLHandler setDefaultURLHandler];
+    }
+
     return NSApplicationMain(argc, argv);
 }
