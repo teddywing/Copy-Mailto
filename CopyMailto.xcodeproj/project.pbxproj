@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -101,7 +101,7 @@
 				};
 			};
 			buildConfigurationList = D1F170F221402BAF00BD08A0 /* Build configuration list for PBXProject "CopyMailto" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -266,6 +266,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CopyMailto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.teddywing.CopyMailto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -280,6 +281,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CopyMailto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.teddywing.CopyMailto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
