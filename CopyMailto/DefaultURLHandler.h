@@ -11,6 +11,5 @@
 @interface DefaultURLHandler : NSObject
 
 + (OSStatus)setDefaultURLHandler;
-+ (void)saveDefaultURLHandler;
 
 @end

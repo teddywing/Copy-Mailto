@@ -24,13 +24,4 @@
     return status;
 }
 
-+ (void)saveDefaultURLHandler {
-    CFStringRef mailto = (CFStringRef)@"mailto";
-    CFStringRef bundle_identifier = LSCopyDefaultHandlerForURLScheme(mailto);
-    NSLog(@"%@", bundle_identifier);
-
-    CFRelease(mailto);
-    CFRelease(bundle_identifier);
-}
-
 @end
