@@ -10,6 +10,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+- (void)handleURLEvent:(NSAppleEventDescriptor *)event
+    withReplyEvent: (NSAppleEventDescriptor *)replyEvent;
 
 @end
-

@@ -15,8 +15,12 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationWillFinishLaunching:(NSNotification *)aNotification {
+    [[NSAppleEventManager sharedAppleEventManager]
+        setEventHandler:self
+        andSelector:@selector(handleURLEvent:withReplyEvent:)
+        forEventClass:kInternetLocationMail
+        andEventID:kAEOpenApplication];
 }
 
 
@@ -24,5 +28,12 @@
     // Insert code here to tear down your application
 }
 
+- (void)handleURLEvent:(NSAppleEventDescriptor *)event
+    withReplyEvent: (NSAppleEventDescriptor *)replyEvent
+{
+    NSString *url = [[event paramDescriptorForKeyword:keyDirectObject]
+        stringValue];
+    NSLog(@"%@", url);
+}
 
 @end
