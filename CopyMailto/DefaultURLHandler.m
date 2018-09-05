@@ -10,14 +10,8 @@
 
 @implementation DefaultURLHandler
 
-//LSSetDefaultHandlerForURLScheme();
 + (void)saveDefaultURLHandler {
-    CFStringRef mailto = CFStringCreateWithCString(
-        kCFAllocatorDefault,
-        "mailto",
-        kCFStringEncodingUTF8
-    );
-
+    CFStringRef mailto = (CFStringRef)@"mailto";
     CFStringRef bundle_identifier = LSCopyDefaultHandlerForURLScheme(mailto);
     NSLog(@"%@", bundle_identifier);
 
