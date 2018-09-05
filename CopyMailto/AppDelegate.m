@@ -40,6 +40,8 @@ const NSUInteger MAILTO_INDEX = 7;
     [pasteboard writeObjects:
         [NSArray arrayWithObject:
             [_email_address stringValue]]];
+
+    [NSApp terminate:self];
 }
 
 @end
