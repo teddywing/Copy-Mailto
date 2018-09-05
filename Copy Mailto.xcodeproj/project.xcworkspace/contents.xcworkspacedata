@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CopyMailto.xcodeproj">
+      location = "self:/Users/tw/Documents/Development/CopyMailto/Copy Mailto.xcodeproj">
    </FileRef>
 </Workspace>

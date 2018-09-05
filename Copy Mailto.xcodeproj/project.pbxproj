@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1F170F721402BB000BD08A0 /* CopyMailto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyMailto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F170F721402BB000BD08A0 /* Copy Mailto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy Mailto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F170FA21402BB000BD08A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1F170FB21402BB100BD08A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D1F170FD21402BB100BD08A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		D1F170F821402BB000BD08A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1F170F721402BB000BD08A0 /* CopyMailto.app */,
+				D1F170F721402BB000BD08A0 /* Copy Mailto.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1F170F621402BB000BD08A0 /* CopyMailto */ = {
+		D1F170F621402BB000BD08A0 /* Copy Mailto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1F1710821402BB400BD08A0 /* Build configuration list for PBXNativeTarget "CopyMailto" */;
+			buildConfigurationList = D1F1710821402BB400BD08A0 /* Build configuration list for PBXNativeTarget "Copy Mailto" */;
 			buildPhases = (
 				D1F170F321402BB000BD08A0 /* Sources */,
 				D1F170F421402BB000BD08A0 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = CopyMailto;
+			name = "Copy Mailto";
 			productName = CopyMailto;
-			productReference = D1F170F721402BB000BD08A0 /* CopyMailto.app */;
+			productReference = D1F170F721402BB000BD08A0 /* Copy Mailto.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D1F170F221402BAF00BD08A0 /* Build configuration list for PBXProject "CopyMailto" */;
+			buildConfigurationList = D1F170F221402BAF00BD08A0 /* Build configuration list for PBXProject "Copy Mailto" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1F170F621402BB000BD08A0 /* CopyMailto */,
+				D1F170F621402BB000BD08A0 /* Copy Mailto */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1F170F221402BAF00BD08A0 /* Build configuration list for PBXProject "CopyMailto" */ = {
+		D1F170F221402BAF00BD08A0 /* Build configuration list for PBXProject "Copy Mailto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1F1710621402BB400BD08A0 /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1F1710821402BB400BD08A0 /* Build configuration list for PBXNativeTarget "CopyMailto" */ = {
+		D1F1710821402BB400BD08A0 /* Build configuration list for PBXNativeTarget "Copy Mailto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1F1710921402BB400BD08A0 /* Debug */,
