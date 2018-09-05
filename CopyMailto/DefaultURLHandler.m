@@ -13,11 +13,8 @@
 + (OSStatus)setDefaultURLHandler {
     CFStringRef scheme = (CFStringRef)@"mailto";
     CFStringRef bundle_identifier = (__bridge CFStringRef)[[NSBundle mainBundle] bundleIdentifier];
-    NSLog(@"%@", scheme);
-    NSLog(@"%@", bundle_identifier);
 
     OSStatus status = LSSetDefaultHandlerForURLScheme(scheme, bundle_identifier);
-    NSLog(@"%d", status);
 
     CFRelease(scheme);
 
