@@ -8,6 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "DefaultURLHandler.h"
+
 int main(int argc, const char * argv[]) {
+    [DefaultURLHandler saveDefaultURLHandler];
     return NSApplicationMain(argc, argv);
 }
