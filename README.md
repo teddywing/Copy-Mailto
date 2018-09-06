@@ -27,6 +27,8 @@ To set Copy Mailto as the default handler for `mailto:` URLs, run:
 Download the app from the [releases][1] page. Unzip it and drag it to the
 `Applications` folder.
 
+Copy Mailto is designed to work on Mac OS X 10.6 and later.
+
 
 ## License
 Copyright © 2018 Teddy Wing. Licensed under the GNU GPLv3+ (see the included
