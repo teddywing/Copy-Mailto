@@ -4,7 +4,7 @@ Copy Mailto
 A `mailto:` link handler that allows you to copy the email address to the
 clipboard.
 
-![screenshot.png](Screenshot)
+![Screenshot](screenshot.png)
 
 
 ## Usage
